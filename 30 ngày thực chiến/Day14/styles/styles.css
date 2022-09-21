@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #dadada;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.container {
+  margin: 50px auto;
+  height: 80%;
+  width: 70%;
+  box-shadow: 0 0 10px #bbb;
+}
+.container .main {
+  height: 85%;
+  position: relative;
+}
+.container .main .control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 80px;
+  color: white;
+  cursor: pointer;
+}
+.container .main .prev {
+  left: 10px;
+}
+.container .main .next {
+  right: 10px;
+}
+.container .main .img-wrap {
+  width: 100%;
+  height: 100%;
+}
+.container .list-img {
+  display: flex;
+}
+.container .list-img div {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #bbb;
+  flex: 1;
+}
+.container .list-img .active {
+  background-color: rgb(220, 86, 86);
+}/*# sourceMappingURL=styles.css.map */

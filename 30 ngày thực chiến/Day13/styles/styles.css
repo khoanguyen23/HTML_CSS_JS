@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(45deg, #3575d1, #7d4ed4);
+}
+
+.container {
+  width: 500px;
+  margin: 120px auto;
+}
+.container .preview {
+  border: 2px dashed #fff;
+  width: 100%;
+  height: 350px;
+  color: white;
+  font-size: 22px;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.container .preview i {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.container .preview img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}/*# sourceMappingURL=styles.css.map */
